@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "forcenumchunks",
+  "version": "${version}",
+  "name": "ForceNumChunks",
+  "description": "强制设置最大视距为4096区块，兼容钠(Sodium)模组",
+  "authors": [{"name": "Agnes"}],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.mod.ForceChunksMod"]
+  },
+  "mixins": ["mixins.forcemod.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
